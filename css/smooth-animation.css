@@ -1,0 +1,27 @@
+nav ul {
+-webkit-font-smoothing:antialiased;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  -webkit-transition: all .25s ease;
+     -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+       -o-transition: all .25s ease;
+          transition: all .25s ease;
+}
+nav li ul {
+  -webkit-transition: all .25s ease;
+     -moz-transition: all .25s ease;
+      -ms-transition: all .25s ease;
+       -o-transition: all .25s ease;
+          transition: all .25s ease;
+}
+nav li:hover ul {
+  opacity: 1;
+  visibility: visible;
+}
+nav li ul a:hover {
+  background: #bbb;
+}
