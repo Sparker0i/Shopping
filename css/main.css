@@ -19,6 +19,7 @@ html, body {
 
 .main {
  padding: 40px 0;
+ background-color: #d3d3d3;
 }
 
 .main h1 {
@@ -41,7 +42,7 @@ html, body {
 .thumbnail {
  border: 0px;
  position: relative;
- background-color: #d3d3d3;
+ background-color: #ffffff;
  padding: 50px;
    border-radius: 0;
    margin-bottom:50px;

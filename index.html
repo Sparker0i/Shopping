@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <!--Important Files Needed-->
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/navbar.css">
   <script src="js/angular.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Roboto:500,300,700,400' rel='stylesheet' type='text/css'>
   <script src="js/jquery-1.12.3.min.js"></script>
@@ -23,7 +24,7 @@
 </head>
 
 <body ng-app = "myApp">
-  <nav class="navbar navbar-fixed navbar-inverse col-md-12">
+  <nav class="navbar navbar-default navbar-inverse col-md-12">
     <div class="container-fluid">
       <div class="navbar-header">
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -67,13 +68,14 @@
       </div>
     </div>
   </nav>
+  <header></header>
   <div class="main" ng-controller="MainController">
     <div class="container">
       <h1>{{title}}</h1>
-      <h2> {{promo}} </h2>
-      <div class="col-md-3">
+      <br></br>
+      <div class="col-md-4" ng-repeat="product in products">
         <div class="thumbnail">
-          <img src="img/Moto_G3.jpg" height="400" width="300">
+          <img src="{{product.cover}}">
           <p class="title">{{product.name}} </p>
           <p class="price">{{product.price | currency}} </p>
           <p class="date">Arrived : {{product.arrival | date}}</p>
