@@ -5,8 +5,8 @@ app.controller('MainController', ['$scope', function($scope) {
   {
     name: 'Moto G3',
     price: 179.99,
-    arrival: new Date('2015','06','28'),
-    cover: "img/Moto_G3.jpg"
+    arrival: new Date('2015','06','29'),
+    cover: "img/Moto G3.jpg"
 	},
   {
     name: 'Lumia 640XL',
@@ -27,10 +27,10 @@ app.controller('MainController', ['$scope', function($scope) {
     cover: "img/Nexus-5X.jpg"
 	},
   {
-    name: 'Lumia 550',
-    price: 124.99,
-    arrival: new Date('2015','09','06'),
-    cover: "img/Lumia 550.jpg"
+    name: 'Yu Yunicorn',
+    price: 194.99,
+    arrival: new Date('2016','06','07'),
+    cover: "img/Yu Yunicorn.jpg"
 	},
   {
     name: 'iPhone 6S',
@@ -45,16 +45,17 @@ app.controller('MainController', ['$scope', function($scope) {
     cover: "img/Zenfone 2.jpg"
   },
   {
-    name: 'Lumia 650',
-    price: 199.99,
-    arrival: new Date('2016' , '01' , '01'),
-    cover: "img/Lumia 650.jpg"
+    name: 'Redmi Note 3',
+    price: 179.99,
+    arrival: new Date('2016' , '01' , '11'),
+    cover: "img/Redmi Note 3.jpg"
   },
   {
-    name: 'LeEco Le 1S',
-    price: 159.99,
+    name: 'LeEco Le2',
+    price: 179.99,
     arrival: new Date('2016' , '02' , '10'),
-    cover: "img/Le 1S.jpg"
-  }
+    cover: "img/LeEco Le2.jpg"
+  },
+  
 ];
 }]);
